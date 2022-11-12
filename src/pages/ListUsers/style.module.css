@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 0.8em;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+.userList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  width: 100%;
+}
+
+.boxUser {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 0.8em;
+  margin-bottom: 1em;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+.userList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  width: 100%;
+}
+
+.boxUser {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-radius: 5px;
+}
+
+.label {
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+}
+
+.input,
+textarea,
+select {
+  margin-bottom: 1em;
+  padding: 0.7em;
+  border: 0;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.input:disabled {
+  cursor: not-allowed;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttonBusca {
+  padding: 0.7em;
+  border: 0;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.buttonBusca:hover {
+  background-color: #aaa;
+}
+
+.inputBusca {
+  display: flex;
+  flex-direction: column;
+}
